@@ -4,7 +4,7 @@ dotenv.config();
 
 module.exports = async (req, res) => {
     const APIKEY = process.env.NARAKEET_API_KEY;
-    const voice = 'mickey';
+    const voice = 'mike';
     const text = req.body.text;
 
     try {
